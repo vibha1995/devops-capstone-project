@@ -1,4 +1,4 @@
-FROM hshar/flaskapp
+FROM kvibha/test
 RUN apt-get update -y && \
     apt-get install -y git
 RUN git clone https://github.com/hshar94/flask-sample.git
